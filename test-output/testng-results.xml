@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Result = STORE]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = STORE]]>
+    </line>
+    <line>
+      <![CDATA[Expected Result = https://www.demoblaze.com/]]>
+    </line>
+    <line>
+      <![CDATA[Actual Result = https://www.demoblaze.com/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-05T12:42:16 MDT" name="Regression Suite" finished-at="2024-05-05T12:42:23 MDT" duration-ms="6374">
+    <groups>
+    </groups>
+    <test started-at="2024-05-05T12:42:16 MDT" name="Regression Test" finished-at="2024-05-05T12:42:23 MDT" duration-ms="6374">
+      <class name="test.BasicValidation">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:test.BasicValidation@431cd9b2]" started-at="2024-05-05T12:42:16 MDT" name="beforeTest" finished-at="2024-05-05T12:42:22 MDT" duration-ms="5511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="titleValidation()[pri:0, instance:test.BasicValidation@431cd9b2]" started-at="2024-05-05T12:42:22 MDT" name="titleValidation" finished-at="2024-05-05T12:42:22 MDT" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = STORE]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = STORE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method signature="urlValidation()[pri:0, instance:test.BasicValidation@431cd9b2]" started-at="2024-05-05T12:42:22 MDT" name="urlValidation" finished-at="2024-05-05T12:42:22 MDT" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Result = https://www.demoblaze.com/]]>
+            </line>
+            <line>
+              <![CDATA[Actual Result = https://www.demoblaze.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.BasicValidation@431cd9b2]" started-at="2024-05-05T12:42:22 MDT" name="afterTest" finished-at="2024-05-05T12:42:23 MDT" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.BasicValidation -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
